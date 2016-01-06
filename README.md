@@ -20,8 +20,7 @@ Any type of  "package" is supported, including: jar, zip, aar, apk, ios, app, ms
 
 - Via REST:
 
-        anonsage.com/pmaas/api/v1/upload
-        anonsage.com/pmaas/api/v1/download
+        anonsage.com/pmaas/api/v1/package (POST, GET, PATCH, DELETE)
 
 - Via command line:
 
