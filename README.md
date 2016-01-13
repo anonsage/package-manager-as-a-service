@@ -52,3 +52,4 @@ Any type of  "package" is supported, including: jar, zip, aar, apk, ios, app, ms
 - Allow removal of uploaded packages if one of the following:
   - are less than a day old
   - have less than 10(?) downloads
+- Add automated way for groups to "support" the project. The number of months can be specified (up to 6), based on the current (maybe projected?) number of users.
