@@ -56,15 +56,20 @@ Any type of  "package" is supported, including: jar, zip, aar, apk, ios, app, ms
 - Basic analytics: num-downloads, num-vote-up. Only verified users may be counted.
 
 ### v2
-- Add ability to limit packages to certain platforms. Some jars, aars, apk, etc, may be targeted for certain platforms.
-  - Need to create new 'Platform' table with fields: name, version, bit. Ex: 'Ubuntu 15.10 64', 'Android 5.0.1 64'
-  - This would go in an advanced field that is off to the side.
-  - Multiple inclusions should be supported, possibly with version ranges. Are exclusions needed too?
-  - This means when asking for a package, the system info should sometimes be included. Always send by default may be good enough.
+
 
 ### v3
+- Pro accounts.
+  - Allow dev charging for packages and more future features?
 
 ### v4
 - Add ability to release package at a certain day/time.
 - Allow slow rollouts as percentages, like in Google Play.
 - Check Google Play Developer Console for more ideas.
+
+### Maybe not, unless much need is seen.
+- Add ability to limit packages to certain platforms. Some jars, aars, apk, etc, may be targeted for certain platforms.
+  - Need to create new 'Platform' table with fields: name, version, bit. Ex: 'Ubuntu 15.10 64', 'Android 5.0.1 64'
+  - This would go in an advanced field that is off to the side.
+  - Multiple inclusions should be supported, possibly with version ranges. Are exclusions needed too?
+  - This means when asking for a package, the system info should sometimes be included. Always send by default may be good enough.
