@@ -1,0 +1,42 @@
+package
+  id
+  group key text 40 ;; Ex: com.anonsage.platform
+  name key text 40 ;; Ex: my-awesome-package
+  version key text 15 ;; Ex: 1.0.0
+  description-short text 80
+  description-long text 1600 ;; 20 full lines
+  owner foreign-key
+  file ;; pointer to static file system
+  website
+  platform-available
+
+owner
+  id unique
+  name key unique
+  email-username
+  email-domain
+  auth-data
+  date-joined
+  date-first-payment
+  date-last-payment
+  packages foreign-key
+  packages-vote-up ;; Find liked packages easier.
+  packages-follow ;; Get update notifications for packages.
+
+package-stats
+  id unique
+  package-id foreign-key
+  vote-up-count
+  vote-up-owners
+  num-vote-up
+  date-uploaded
+  download-count
+  download-daily-count
+  num-download
+  num-download-daily
+
+platform
+  id
+  os
+  version
+  bit
