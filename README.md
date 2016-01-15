@@ -20,6 +20,10 @@ Any type of  "package" is supported, including: jar, zip, aar, apk, ios, app, ms
   - $4.00/package/month for packages up to 1000 MB
   - Free $2.00/month for life. (Please contact us if you'd like to support this project.)
   - *A package is defined as a unique name and all versions of it. Rates may rise in the future, but you can lock in your
+- Alternative pricing v2:
+  - $0.10/GB/month storage, $0.10/GB/month transfer
+  - Free $1.00/month for life. (Please contact us if you'd like to support this project.)
+  - *A package is defined as a unique name and all versions of it. Rates may rise in the future, but you can lock in your
 
 
 ## Usage
